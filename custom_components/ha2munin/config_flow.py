@@ -1,3 +1,5 @@
+# issues.
+
 from homeassistant import config_entries
 
 class Ha2MuninConfigFlow(config_entries.ConfigFlow, domain="ha2munin"):
