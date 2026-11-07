@@ -4,7 +4,7 @@
   "version": "1.0.6",
   "documentation": "https://github.com/rogerw-gh/ha2muninv2",
   "requirements": [],
-  "dependencies": [],
+  "dependencies": ["homeassistant"],
   "codeowners": ["@Erreur32,rogerw-gh"],
   "config_flow": true,
   "icon": "icon.png"
