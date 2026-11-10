@@ -21,4 +21,9 @@ The library must be reinstalled after every upgrade from the Advanced Terminal u
 
   - pip install homeassistant
 
-It should be possible to make ha2munin reinstall homeassistant, but I haven't figured that out yet.
+It should be possible to make ha2munin reinstall homeassistant, but I haven't figured that out yet, although the json files now contain a dependency.
+
+## A Note for develpers of community plugins / API's Intgrations
+
+The loading process is very sensitive to name, domains and labels in your code.
+If you get this error _Config flow could not be loaded: {"message":"Invalid handler specified"}_, at the moment, its broken :-(.)

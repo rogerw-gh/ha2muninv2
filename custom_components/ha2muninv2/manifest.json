@@ -1,10 +1,10 @@
 {
   "domain": "ha2muninv2",
   "name": "HA to Munin",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "documentation": "https://github.com/rogerw-gh/ha2muninv2",
-  "requirements": [],
-  "dependencies": ["homeassistant"],
+  "requirements": ["homeassistant"],
+  "dependencies": [],
   "codeowners": ["@Erreur32,rogerw-gh"],
   "config_flow": true,
   "icon": "icon.png"
