@@ -1,7 +1,7 @@
 from homeassistant.components.http import HomeAssistantView
 from aiohttp.web_response import Response
 
-DOMAIN = "ha2muninv2"
+DOMAIN = "ha2munin"
 
 async def async_setup(hass, config):
     hass.http.register_view(MuninAPI())

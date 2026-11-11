@@ -26,4 +26,17 @@ It should be possible to make ha2munin reinstall homeassistant, but I haven't fi
 ## A Note for develpers of community plugins / API's Intgrations
 
 The loading process is very sensitive to name, domains and labels in your code.
-If you get this error _Config flow could not be loaded: {"message":"Invalid handler specified"}_, at the moment, its broken :-(.)
+If you get this error _Config flow could not be loaded: {"message":"Invalid handler specified"}_,
+
+This error is also caused by the homeassistant python library being removed by an upgrade of HA.
+
+## Debugging
+
+   - Open the Advanced Terminal (not the regular one)
+   - change directory to config/custom_components/ha2muninv2
+   - try running python config_flow.py
+   - the outcome will either be:
+        - a silent return back to the prompt, or
+        - an error message complaining about the lack of the homeassistant library
+
+

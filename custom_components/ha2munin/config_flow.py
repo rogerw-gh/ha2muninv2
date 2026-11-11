@@ -2,7 +2,7 @@
 
 from homeassistant import config_entries
 
-class Ha2MuninConfigFlow(config_entries.ConfigFlow, domain="ha2muninv2"):
+class Ha2MuninConfigFlow(config_entries.ConfigFlow, domain="ha2munin"):
     """Minimal config flow for HA2Munin."""
 
 async def async_step_user(self, user_input=None):
